@@ -18,14 +18,12 @@
 
 .middle {
   width: 660px;
-  height: 1000px;
-  background-color: crimson;
+  z-index: 1;
 }
 
 .right {
   width: 340px;
   height: 1000px;
-  background-color: aqua;
 }
 
 .welcome {
@@ -37,7 +35,6 @@
 .list {
   font-size: 1.2em;
   margin-top: 1.8em;
-  list-style: none;
   line-height: 1.5em;
 }
 

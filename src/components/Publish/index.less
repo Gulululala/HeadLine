@@ -1,0 +1,85 @@
+.publish {
+  border: 1px solid #e8e8e8;
+  font-family: PingFangSC-Regular;
+  margin-bottom: 6px;
+
+  ul {
+    height: 44px;
+    line-height: 44px;
+    display: flex;
+    cursor: pointer;
+    font-size: 15px;
+    border-bottom: 1px solid #e8e8e8;
+
+    li {
+      margin-left: 19px;
+    }
+
+    .current {
+      border-bottom: 2px solid #ed4040;
+      color: #ed4040;
+    }
+  }
+
+  .pubCon {
+    position: relative;
+
+    textarea {
+      width: 658px;
+      height: 100px;
+      background-color: #f4f5f6;
+      border: 0;
+      outline: 0;
+      resize: none;
+      padding: 13px 19px;
+      box-sizing: border-box;
+      font-size: 14px;
+      line-height: 1.4;
+      display: block;
+    }
+
+    .wordName {
+      background-color: rgba(0, 0, 0, .5);
+      position: absolute;
+      margin: 0;
+      right: 10px;
+      bottom: 10px;
+      border-radius: 50px;
+      line-height: 1.5;
+      padding: 0 8px;
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .pubFooter {
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+
+    .pubLeft {
+      display: flex;
+      font-size: 14px;
+
+      .addImages, .pubMsg {
+        margin-left: 20px;
+        cursor: pointer;
+
+        i {
+          font-size: 20px;
+          margin-right: 3px;
+        }
+      }
+    }
+
+    .pubRight {
+      width: 120px;
+      background-color: #f85959;
+      color: #fff;
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+}

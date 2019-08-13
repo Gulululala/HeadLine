@@ -9,7 +9,10 @@ class SearchBox extends PureComponent {
 
   render() {
     return (
-      <div className={styles.searchbox}>SearchBox</div>
+      <div className={styles.searchBox}>
+        <input type={'text'} placeholder={'请输入要搜索的内容'}/>
+        <button>搜索</button>
+      </div>
     );
   }
 }
