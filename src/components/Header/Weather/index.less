@@ -1,0 +1,49 @@
+.weather {
+  width: 220px;
+  height: 124px;
+  border: 1px solid #e8e8e8;
+  position: absolute;
+  left: 0;
+  color: #444;
+  line-height: 28px;
+  display: none;
+  cursor: default;
+
+  .today {
+    text-align: left;
+    
+    span {
+      margin: 0 4px;
+      font-size: 13px;
+    }
+    .air {
+      background-color: #66bf56;
+      color: #fff;
+      border-radius: 5px;
+      padding: 2px;
+      font-size: 12px;
+    }
+  }
+  .future {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .wLogo {
+        width: 34px;
+        height: 34px;
+        background-image: url("../../../assets/images/sun.png");
+        background-position: center top;
+        background-size: cover;
+        margin: 3px 0;
+      }
+    }
+  }
+}

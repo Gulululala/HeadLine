@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="arrow_down" unicode="&#58901;" d="M848 528a48 48 0 0 1-81.312 34.544l-0.016 0.016-254.784-254.784-251.488 251.488a48 48 0 1 1-71.04-64.464l-0.128-0.128 288-288 0.016 0.016a47.84 47.84 0 0 1 34.544-14.688h0.224a47.84 47.84 0 0 1 34.544 14.688l0.016-0.016 288 288-0.016 0.016c8.32 8.624 13.44 20.368 13.44 33.312z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
