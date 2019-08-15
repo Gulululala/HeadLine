@@ -6,6 +6,13 @@ import Publish from '../components/Publish';
 import SearchBox from '../components/SearchBox';
 import Login from '../components/Login';
 import Main from '../components/Main';
+// import { connect } from 'dva';
+//
+// const namespace = 'headLine';
+
+// @connect(({ headLine }) => ({
+//   headLine,
+// }))
 
 export default function() {
   return (

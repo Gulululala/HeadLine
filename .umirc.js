@@ -22,4 +22,11 @@ export default {
       },
     }],
   ],
+  "proxy": {
+    "/weather": {
+      "target": "https://www.toutiao.com",
+      "changeOrigin": true,
+      "pathRewrite": { "^/weather" : "" }
+    }
+  }
 }
